@@ -1,0 +1,33 @@
+/* BASIC STYLES HERE */
+
+body{
+  overflow-x: hidden;
+}
+
+
+.dead{
+  filter: opacity(.5) grayscale(1) blur(30px);
+  transform: scale(.3) rotateZ(180deg);
+  transition: all 10s linear; 
+}
+
+.dead:hover{
+  filter: unset;
+  transform: unset; 
+}
+
+
+@media screen AND (min-width: 996px) {
+
+  .character-card{
+    
+  }
+
+  .character-image {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+
